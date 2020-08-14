@@ -1,0 +1,136 @@
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family:Segoe UI; 
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	background-color: rgba(106, 90, 205,0.5);
+	color: black;
+	line-height: 5;
+	text-align: center;
+	font-size: 250%;
+	font-weight: bold;
+	margin: 20px;
+    padding: 5px;
+    letter-spacing: 5px;
+    background: url(../img/8.jpg);
+    background-position: center;
+    background-size: contain;
+
+
+}
+.h1{
+	font-size: 120%;
+	text-align: justify;
+	font-weight: 700;
+	padding: 50px;
+	margin: 40px;
+	
+	border-width: 2px;
+	background-color: rgba(0, 206, 209,0.5);
+
+}
+.container{
+	display: flex;
+	background: ;
+    flex: 2 1 auto;
+    flex-flow: row wrap;
+
+}
+.cuadro1{
+	
+    color: #444;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 30px;
+    flex: 1 1 45%;
+    background: #ececec;
+    height: 400px;
+    padding: 10px;
+    background-color: rgba(0, 206, 209,0.5);
+    color: black;
+
+}
+.cuadro2{
+	
+    color: #444;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 30px ;
+    flex: 1 1 45%;
+    background: #ececec;
+    height: 400px;
+    padding: 10px;
+    background-color: rgba(0, 206, 209,0.5);
+    color: black;
+
+}
+.cuadro3{
+	
+    color: #444;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 30px;
+    flex: 1 1 45%;
+    background: #ececec;
+    height: 400px;
+    padding: 10px;
+    background-color: rgba(0, 206, 209,0.5);
+    color: black;
+
+}
+.cuadro4{
+	
+    color: #444;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 30px;
+    flex: 1 1 45%;
+    background: #ececec;
+    height: 400px;
+    padding: 10px;
+    background-color: rgba(0, 206, 209,0.5);
+    color: black;
+
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-weight: 700;
+
+}
+.footer {
+    background: #2F2F2E;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 50px;
+    padding: 15px;
+    font-weight: bold;
+}
+.nom {
+    /*background: #e6af2e;*/
+    text-align: center;
+}
+
+.nom a {
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
